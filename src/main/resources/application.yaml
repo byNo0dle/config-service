@@ -8,5 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/byNo0dle/config-service-data
+          uri: https://github.com/byNo0dle/config-service-data.git
           search-paths: '{application}'
