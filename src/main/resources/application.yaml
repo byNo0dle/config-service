@@ -1,13 +1,12 @@
 server:
-  port: 9007
+  port: 9030
 spring:
   application:
     name: Bank-Config-Service
-  #Apuntar el path a la ruta
-cloud:
-  config:
-    server:
-      git:
-        uri: https://github.com/byNo0dle
-        default-label: NFSC
-        search-paths: /config-service-data
+  #Apuntar el path de la ruta
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/byNo0dle/config-service-data
+          search-paths: '{application}'
