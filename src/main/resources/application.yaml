@@ -1,8 +1,9 @@
 server:
   port: 9030
+
 spring:
   application:
-    name: Bank-Config-Service
+    name: 'Bank-Config-Service'
   #Apuntar el path de la ruta
   cloud:
     config:
