@@ -11,3 +11,4 @@ spring:
         git:
           uri: https://github.com/byNo0dle/config-service-data.git
           search-paths: '{application}'
+          default-label: master
